@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Puzzle</title>
+  </head>
+  <body>
+
+<style>
+    section.grid-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-row: repeat(4, 1fr);
+        background-color: blue;
+        align-content: left;
+        padding: 5px;
+        grid-auto-flow: dense;
+        width: 1050px;
+    }
+    
+    section div.grid-item {
+        background-color: lightblue;
+        border: 1px solid white;
+        padding: 5px;
+        font-size: 1.2em;
+        text-align: center;
+        width: 200px;
+    }
+    
+        section div.grid-puzzle {
+        display: flex;
+        background-color: lightblue;
+        border: 1px solid white;
+        padding: 5px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 600px;
+    }
+    
+</style>
+<section class="grid-container">
+    <div class="grid-item">
+        My name is Brandi Steele and I am 14.
+    </div>
+    <div class="grid-item">
+        I chose the puzzle "Butterflies."
+    <br/> This assignment was completed on 10/31/23.
+    </div>
+    <div class="grid-puzzle">
+        <img src="images/puzzle/puzzle1_Q.jpg"/>
+        <img src="images/puzzle/puzzle1_G.jpg"/>
+        <img src="images/puzzle/puzzle1_A.jpg"/>
+        <img src="images/puzzle/puzzle1_J.jpg"/>
+        
+        <img src="images/puzzle/puzzle1_M.jpg"/>
+        <img src="images/puzzle/puzzle1_P.jpg"/>
+        <img src="images/puzzle/puzzle1_B.jpg"/>
+        <img src="images/puzzle/puzzle1_H.jpg"/>
+        
+        <img src="images/puzzle/puzzle1_O.jpg"/>
+        <img src="images/puzzle/puzzle1_E.jpg"/>
+        <img src="images/puzzle/puzzle1_N.jpg"/>
+        <img src="images/puzzle/puzzle1_C.jpg"/>
+        <img src="images/puzzle/puzzle1_I.jpg"/>
+        
+        <img src="images/puzzle/puzzle1_F.jpg"/>
+        <img src="images/puzzle/puzzle1_L.jpg"/>
+        <img src="images/puzzle/puzzle1_K.jpg"/>
+        <img src="4.4_puzzle1/puzzle1_D.jpg" style="display: none;"/>
+    </div>
+</section>
+
+  </body>
+</html>

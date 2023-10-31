@@ -1,0 +1,36 @@
+    .roundCount {
+      border: 1px solid #badbd6;
+      background-color: #badbd6;
+    }
+  
+    .teamOne {
+      border: 1px solid darkgreen;
+      background-color: #91ed6d;
+      font-family: 'Courier New', monospace;
+      
+    }
+    
+    .teamOneitems {
+      border: 1px solid darkgreen;
+      background-color: #c7f5b5;
+      font-family: 'Brush Script MT', cursive;
+    }
+    
+    .teamTwo {
+      border: 1px solid #03174a;
+      background-color: #8aabff;
+      font-family: 'Courier New', monospace;
+      
+    }
+    
+    .teamTwoitems {
+      border: 1px solid #03174a;
+      background-color: #cfdcff;
+      font-family: 'Brush Script MT', cursive;
+    }
+    
+    table, tr, td {
+        border: 1px solid black;
+        padding: 5px;
+        background-color: #badbd6;
+    }

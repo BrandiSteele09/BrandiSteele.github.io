@@ -1,0 +1,13 @@
+  .contentcenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  body {
+    background-color: #ff4aea; 
+  }
+
+  h1, p {
+    text-align: center;
+  }

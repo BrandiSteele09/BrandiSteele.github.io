@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CSS3 Images</title>
+</head>
+<body>
+  <style>
+    .dinosaur img {
+      -webkit-filter: hue-rotate(90deg) drop-shadow(12px 1px 3px #000000);
+      filter: hue-rotate(90deg) drop-shadow(12px 1px 3px #000000);
+  }
+  
+    .penguins img {
+      -webkit-filter: sepia(75%);
+      filter: sepia(75%);
+      border-radius: 500%;
+      border: solid thin black;
+  }
+  
+    .seagull {
+      width: 550px;
+      height: 400px;
+      background-image: linear-gradient(150deg, #8989fb, white);
+      background-color: white;
+      -webkit-filter: drop-shadow(1px 10px 10px grey);
+      filter: drop-shadow(1px 10px 10px grey);
+  }
+  
+    .butterfly img {
+      -webkit-filter: invert(100%) opacity(75%);
+      filter: invert(100%) opacity(75%);
+      border-radius: 100px 0px 100px 0px;
+  }
+  
+    .stage img {
+      background-color: white;
+      width: 450px;
+      height: 402px;
+      -webkit-filter: blur(5px);
+      filter: blur(5px);
+      background-repeat: no-repeat;
+  }
+  
+    .tictactoe img {
+      border: 40px solid #000;
+      border-image: url(images/css3_images/tic-tac-toe.png) 46.3 round;
+      -webkit-filter: grayscale(100%);
+      filter: grayscale(100%);
+  }
+  
+  </style>
+
+<div class="dinosaur"><img src="images/css3_images/dinosaur.png"/></div>
+
+<div class="penguins"><img src="images/css3_images/penguins.jpg"/></div>
+
+<div class="seagull"><img src="images/css3_images/seagull.png"/></div>
+
+<div class="butterfly">
+<br/>
+<br/>
+<img src="images/css3_images/butterfly.jpg"/></div>
+
+<div class="stage"><img src="images/css3_images/theater_stage.jpg"/></div>
+<p> This was as far as I got before I got stuck and couldnt figure it out. </p>
+
+<div class="tictactoe"><img src="images/css3_images/football_field.jpg"/></div>
+
+</body>
+</html>

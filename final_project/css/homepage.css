@@ -1,0 +1,75 @@
+
+  @font-face {
+    src: url(/final_project/fonts/apple-chancery/Apple Chancery.ttf);
+    font-family: Apple Chancery.ttf;
+  }
+  
+  .background {
+    background-image: url("/final_project/images/manplayinguitar.jpeg");
+    min-height: 750px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    mask-image: linear-gradient(to bottom, black calc(100% - 400px), transparent 100%);
+  }
+  
+  .title {
+    position: fixed;
+    left: 675px;
+    top: 55px;
+    background-color: white;
+    width: 525px;
+    height: 100px;
+    opacity: 60%;
+    text-align: center;
+    font-family: Apple Chancery.ttf;
+    font-size: 5em;
+    border-radius: 50px 0px 50px 0px;
+    
+  }
+  
+  
+  .navigation {
+    background-color: #c9bfad;
+    width: 99.2%;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+  }
+  
+  .navigation a {
+    float: left;
+    color: #524d45;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px; 
+  }
+  
+  .navigation a:hover {
+    background-color: #524d45;
+    color: #c9bfad;
+  }
+  
+  .navigation a.active {
+    background-color: #9e875d;
+    color: #f2d9ac;
+  }
+  
+  .welcome {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    text-align: center;
+    font-size: 35px;
+    max-width: 450px;
+    max-height: 900px;
+    overflow: auto;
+    border: 5px dashed #78746b;
+    background-color: #e6e1d5;
+    padding: 5px;
+    font-family: cursive; 
+  }
+    

@@ -1,0 +1,128 @@
+   @font-face {
+    src: url(/final_project/fonts/apple-chancery/Apple Chancery.ttf);
+    font-family: Apple Chancery.ttf;
+  }
+  
+  .background {
+    background-image: url("/final_project/images/electricguitars.jpeg");
+    min-height: 750px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    mask-image: linear-gradient(to bottom, black calc(100% - 400px), transparent 100%);
+  }
+  
+  .title {
+    position: fixed;
+    left: 675px;
+    top: 55px;
+    background-color: white;
+    width: 525px;
+    height: 100px;
+    opacity: 60%;
+    text-align: center;
+    font-family: Apple Chancery.ttf;
+    font-size: 5em;
+    border-radius: 50px 0px 50px 0px;
+    
+  }
+  
+  
+  .navigation {
+    background-color: #ad564e;
+    width: 99.2%;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+  }
+  
+  .navigation a {
+    float: left;
+    color: #632823;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px; 
+  }
+  
+  .navigation a:hover {
+    background-color: #632823;
+    color: #ad564e;
+  }
+  
+  .navigation a.active {
+    background-color: #ed9b93;
+    color: #ad362b;
+  }
+  
+  .contentbox1 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-bottom: auto;
+    text-align: center;
+    font-size: 35px;
+    max-width: 900px;
+    max-height: 1300px;
+    overflow: auto;
+    border: 5px dashed #5c140e;
+    background-color: #c99f9b;
+    padding: 5px;
+    font-family: cursive;
+    color: #2e0602;
+  }
+  
+  .contentbox1 li {
+    text-align: left;
+  }
+  
+  .contentbox1 img {
+    margin-left: 50px; 
+    max-width: 800px;
+    max-height: 450px;
+  }
+  
+  .contentbox2 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-bottom: auto;
+    text-align: center;
+    font-size: 35px;
+    max-width: 900px;
+    max-height: 1500px;
+    overflow: auto;
+    border: 5px dashed #5c140e;
+    background-color: #c99f9b;
+    padding: 5px;
+    font-family: cursive;
+    color: #2e0602;
+  }
+  
+    .contentbox2 img {
+    margin-left: 50px; 
+    max-width: 800px;
+    max-height: 450px;
+  }
+  
+  .contentbox2 li {
+    text-align: left;
+  }
+  
+  .head {
+    color: #9c2c1f;
+  }
+  
+  .neck {
+    color: #8c261b;
+  }
+  
+  .body {
+    color: #782017;
+  }
+  
+  .strings {
+    color: #691c14;
+  }

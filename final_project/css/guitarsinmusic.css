@@ -1,0 +1,118 @@
+ @font-face {
+    src: url(/final_project/fonts/apple-chancery/Apple Chancery.ttf);
+    font-family: Apple Chancery.ttf;
+  }
+  
+  .background {
+    background-image: url("/final_project/images/guitarperformance.jpeg");
+    min-height: 750px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    mask-image: linear-gradient(to bottom, black calc(100% - 400px), transparent 100%);
+  }
+  
+  .title {
+    position: fixed;
+    left: 675px;
+    top: 55px;
+    background-color: white;
+    width: 525px;
+    height: 100px;
+    opacity: 60%;
+    text-align: center;
+    font-family: Apple Chancery.ttf;
+    font-size: 5em;
+    border-radius: 50px 0px 50px 0px;
+    
+  }
+  
+  
+  .navigation {
+    background-color: #9faad4;
+    width: 99.2%;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+  }
+  
+  .navigation a {
+    float: left;
+    color: #4c5885;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px; 
+  }
+  
+  .navigation a:hover {
+    background-color: #4c5885;
+    color: #9faad4;
+  }
+  
+  .navigation a.active {
+    background-color: #5167b5;
+    color: #a5b7fa;
+  }
+  
+  .contentbox {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    text-align: center;
+    font-size: 35px;
+    width: 1050px;
+    max-height: 2000px;
+    overflow: auto;
+    border: 5px dashed #39487d;
+    background-color: #9da6c7;
+    padding: 5px;
+    grid-auto-flow: dense;
+    font-family: cursive; 
+  }
+  
+  section img.musicperformance {
+    max-width: 800px;
+    max-height: 900px;
+    margin-top: 5px;
+    margin-left: auto;
+    border-radius: 50px;
+  }
+  
+  Section a.small {
+    text-align: right;
+    font-family: arial;
+    font-size: 10px;
+  }
+  
+  section table {
+    background: #a7c6fa;
+    max-width: 900px;
+    max-height: 500px;
+    font-family: 'Courier New', monospace;
+    border: 5px double #3f67ab;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  section table caption {
+    background: #bdd5ff;
+  }
+  
+  section table th{
+    color: #6185c2;
+  }
+  
+  section table tbody {
+    background-color: #6390db;
+    border: 5px solid #192740;
+  }
+  
+  section table tfoot {
+    background-color: #385fa1;
+    color: #112952;
+  }

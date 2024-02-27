@@ -1,0 +1,83 @@
+  @font-face {
+    src: url(/final_project/fonts/apple-chancery/Apple Chancery.ttf);
+    font-family: Apple Chancery.ttf;
+  }
+  
+  .background {
+    background-image: url("/final_project/images/aesthetic.jpeg");
+    min-height: 750px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    mask-image: linear-gradient(to bottom, black calc(100% - 400px), transparent 100%);
+  }
+  
+  .title {
+    position: fixed;
+    left: 675px;
+    top: 55px;
+    background-color: white;
+    width: 525px;
+    height: 100px;
+    opacity: 60%;
+    text-align: center;
+    font-family: Apple Chancery.ttf;
+    font-size: 5em;
+    border-radius: 50px 0px 50px 0px;
+    
+  }
+  
+  
+  .navigation {
+    background-color: #ad612f;
+    width: 99.2%;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+  }
+  
+  .navigation a {
+    float: left;
+    color: #ffb380;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px; 
+  }
+  
+  .navigation a:hover {
+    background-color: #ffb380;
+    color: #ad612f;
+  }
+  
+  .navigation a.active {
+    background-color: #e89056;
+    color: #784a2b;
+  }
+  
+  .flexbox {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    font-size: 35px;
+    max-width: 700px;
+    overflow: auto;
+    border: 5px dashed #78543d;
+    background-color: #d9b49c;
+    padding: 5px;
+    font-family: cursive;
+    color: black;
+  }
+
+  .dragon {
+    border: 5px solid #1c0a0a;
+    border-radius: 4px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 700px;
+    max-height: 200px;
+  }
